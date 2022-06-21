@@ -1,0 +1,15 @@
+.container button {
+    display: block;
+    margin: 10px auto;
+    
+}
+.load-more { 
+background-color: blue;
+color: antiquewhite;
+padding: 5px 30px;
+border: none;
+border-radius: 5px;
+}
+.load-more.is-hidden {
+    display: none;
+  }
