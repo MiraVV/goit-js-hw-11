@@ -57,3 +57,9 @@ img {
        object-fit: cover;
        transition: transform var(--animation-duration) var(--timing-function);
     }
+
+    .end-collection-text.is-hidden {
+        display: none;
+      }
+
+    
