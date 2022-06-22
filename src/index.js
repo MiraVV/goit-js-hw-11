@@ -69,7 +69,10 @@ async function onSearch(e){
  
 }       
 function onLoadMore(){
-    imagesApiServise.fetchImages().then(images =>{appendCardsMarckup(images.hits)});
+    imagesApiServise.fetchImages().then(images =>{
+        appendCardsMarckup(images.hits);
+        lightbox.refresh();
+    });
 }
 
 function appendCardsMarckup(card){
